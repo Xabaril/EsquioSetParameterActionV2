@@ -1,0 +1,24 @@
+name: 'esquio-set-parameter-v2'
+description: 'Xabaril Esquio set parameter task (V2)'
+author: 'Xabaril'
+branding:
+  icon: 'toggle-right'  
+  color: 'blue'
+inputs:
+  esquioUrl:             
+    description: 'Esquio URL'
+  esquioApiKey:
+    description: 'Esquio API KEy (keep it secret)'
+  productName:
+    description: 'Product name'
+  featureName:
+    description: 'Feature name'
+  toggleType:
+    description: 'Toggle type in the feature'
+  parameterName:
+    description: 'Parameter name to set the value'
+  value:
+    description: 'Value for the parameter'
+runs:
+  using: 'node12'
+  main: 'lib/main.js'
