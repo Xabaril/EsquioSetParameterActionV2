@@ -15,7 +15,7 @@ jobs:
       - name: esquio-set-parameter-v2
         uses: ./
         with:
-          esquioUrl: 'https://esquiodemoui2.azurewebsites.net/'
+          esquioUrl: 'https://esquiodemoui.azurewebsites.net/'
           esquioApiKey: ${{ secrets.apikey }}
           productName: 'Default'
           featureName: 'DarkMode'
