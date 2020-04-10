@@ -32,7 +32,8 @@ async function setToggleParameter(esquioUrl: url.UrlWithStringQuery,
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
-      'x-api-key': esquioApiKey
+      'x-api-key': esquioApiKey,
+      'x-api-version': '2.0'
     }
   }
 
